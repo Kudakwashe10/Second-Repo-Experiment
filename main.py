@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-import requests 
+import requests
 from bs4 import BeautifulSoup
 
 def main():
@@ -25,7 +25,7 @@ def main():
         print(text, '\n-', author)
         print('Tags:', ', '.join(tags), '\n')
 
-if __name__=="__main__":
+if __name__ == "__main__":
     main()
 
 # py -m pipenv run python main.py
